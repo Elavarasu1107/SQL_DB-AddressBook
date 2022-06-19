@@ -56,3 +56,7 @@ UPDATE ADDRESS_BOOK SET TYPE = 'Friends' WHERE FIRST_NAME = 'Thamarai'
 
 --UC10:
 SELECT TYPE, COUNT(TYPE) AS TYPE_COUNT FROM ADDRESS_BOOK GROUP BY TYPE
+
+--UC11:
+INSERT INTO ADDRESS_BOOK VALUES('Anand','Raj','20Z','Neyveli','Tamil Nadu',612345,6543217890,'anand@gmail.com','Friends')
+INSERT INTO ADDRESS_BOOK VALUES('Anand','Raj','20Z','Neyveli','Tamil Nadu',612345,6543217890,'anand@gmail.com','Family')
