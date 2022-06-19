@@ -17,7 +17,6 @@ EMAIL VARCHAR(50) NOT NULL)
 
 SELECT * FROM ADDRESS_BOOK
 
-
 --UC3:
 INSERT INTO ADDRESS_BOOK VALUES('Elavarasu','Appusamy','11A','Salem','Tamil Nadu',654321,9087654321,'elavarasu@gmail.com')
 INSERT INTO ADDRESS_BOOK VALUES('Nantha','Gopal','12B','Coimbatore','Tamil Nadu',645321,8907654321,'nantha@gmail.com')
@@ -27,3 +26,6 @@ INSERT INTO ADDRESS_BOOK VALUES('Steven','John','15E','Chennai','Tamil Nadu',456
 INSERT INTO ADDRESS_BOOK VALUES('Appusamy','Muniyapagounder','11A','Komarapalayam','Tamil Nadu',654321,6789054123,'appusamy@gmail.com')
 INSERT INTO ADDRESS_BOOK VALUES('Sudha','Shanmugam','16F','Coimbatore','Tamil Nadu',645312,7890654321,'sudha@gmail.com')
 INSERT INTO ADDRESS_BOOK VALUES('Sarasmani','Appusamy','11A','Komarapalayam','Tamil Nadu',456321,9786672345,'saras@gmail.com')
+
+--UC4:
+UPDATE ADDRESS_BOOK SET CITY = 'Komarapalayam' WHERE FIRST_NAME = 'Elavarasu'
