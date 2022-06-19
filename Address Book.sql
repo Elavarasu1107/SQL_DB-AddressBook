@@ -29,3 +29,6 @@ INSERT INTO ADDRESS_BOOK VALUES('Sarasmani','Appusamy','11A','Komarapalayam','Ta
 
 --UC4:
 UPDATE ADDRESS_BOOK SET CITY = 'Komarapalayam' WHERE FIRST_NAME = 'Elavarasu'
+
+--UC5:
+DELETE FROM ADDRESS_BOOK WHERE FIRST_NAME = 'Steven'
